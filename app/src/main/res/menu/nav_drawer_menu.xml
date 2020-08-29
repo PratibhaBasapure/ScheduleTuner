@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <group
+        android:id="@+id/gp_one"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_day_view"
+            android:icon="@drawable/outline_calendar_view_day_black_18dp"
+            android:title="@string/action_day_view"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_three_day_view"
+            android:icon="@drawable/icons8_week_view_24"
+            android:title="@string/action_three_day_view"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_week_view"
+            android:icon="@drawable/icons8_month_view_30"
+            android:title="@string/action_week_view"
+            app:showAsAction="ifRoom" />
+    </group>
+    <group
+        android:id="@+id/gp_two"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_goals"
+            android:icon="@drawable/ic_event"
+            android:title="Goals"></item>
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event"
+            android:title="Events"></item>
+
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/ic_trash"
+            android:title="Trash"></item>
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings"
+            android:title="Setting"></item>
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help"></item>
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/signout_icon"
+            android:title="Sign out"></item>
+
+    </group>
+
+</menu>

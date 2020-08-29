@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "98359504756",
+    "firebase_url": "https://scheduler-tuner.firebaseio.com",
+    "project_id": "scheduler-tuner",
+    "storage_bucket": "scheduler-tuner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98359504756:android:73541fbc2c93e8837b4621",
+        "android_client_info": {
+          "package_name": "com.dal.mobilecomputing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98359504756-umt3g3fd5pemp8tvedfajkusrssbg53l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dal.mobilecomputing",
+            "certificate_hash": "e1e2869667d35a80ee794a4e05c5d4192cf4fc57"
+          }
+        },
+        {
+          "client_id": "98359504756-o4nhds24ri6ti778c1ub13ikdm4f6h25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuLYDgmeiZkczZGijFSMT6IcrHK5mIrGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98359504756-o4nhds24ri6ti778c1ub13ikdm4f6h25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98359504756:android:d9e2a8570615027f7b4621",
+        "android_client_info": {
+          "package_name": "com.dal.mobilecomputing.scheduletuner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98359504756-pgi8lqlm0u8dk2sieu3j5noek0ohucbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dal.mobilecomputing.scheduletuner",
+            "certificate_hash": "e1e2869667d35a80ee794a4e05c5d4192cf4fc57"
+          }
+        },
+        {
+          "client_id": "98359504756-o4nhds24ri6ti778c1ub13ikdm4f6h25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuLYDgmeiZkczZGijFSMT6IcrHK5mIrGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98359504756-o4nhds24ri6ti778c1ub13ikdm4f6h25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

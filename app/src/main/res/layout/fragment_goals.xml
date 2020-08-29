@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#F1F8F7"
+    tools:context=".GoalsFragment">
+
+    <EditText
+        android:id="@+id/editGoalName"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/back"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Goal Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTotalHours"
+        android:layout_width="205dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/back"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="hours"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editGoalName" />
+
+    <Spinner
+        android:id="@+id/spinnerhowoften"
+        android:layout_width="205dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="80dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTotalHours" />
+
+    <TextView
+        android:id="@+id/tvgoalsStartDate"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:hint="Start Date"
+        app:layout_constraintEnd_toStartOf="@+id/editStartDate"
+        app:layout_constraintTop_toBottomOf="@+id/tvHowoften" />
+
+    <Button
+        android:id="@+id/btnCreateGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="240dp"
+        android:background="#1a73e8"
+
+        android:text="Create"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHowoften"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="248dp"
+        android:gravity="center"
+        android:text="How often"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerhowoften"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/editStartDate"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/back"
+        android:src="@drawable/calendar_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerhowoften" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8F7"
+    tools:context=".SettingFragment" >
+
+
+    <Switch
+        android:id="@+id/dark_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="Dark Mode"
+        android:textColor="#000000"
+        android:textColorHighlight="#0523AC"
+        android:textColorLink="#0523AC"
+        android:textCursorDrawable="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/random"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="Events"
+        android:textColor="#000000"
+        android:textColorHighlight="#0523AC"
+        android:textColorLink="#0523AC"
+        android:textCursorDrawable="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dark_mode" />
+
+    <Switch
+        android:id="@+id/notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="Goals"
+        android:textColor="#000000"
+        android:textColorHighlight="#0523AC"
+        android:textColorLink="#0523AC"
+        android:textCursorDrawable="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/notifications1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/random"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <Switch
+        android:id="@+id/notifications1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="Notifications"
+        android:textColor="#000000"
+        android:textColorHighlight="#0523AC"
+        android:textColorLink="#0523AC"
+        android:textCursorDrawable="@drawable/common_google_signin_btn_text_dark_normal_background"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/random" />
+
+    <Button
+        android:id="@+id/deleteProofleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:background="#CB2431"
+        android:capitalize="characters"
+        android:text="Delete Profile"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notifications" />
+
+    <TextView
+        android:id="@+id/terms_and_conditions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Terms and conditions"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#86050505"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

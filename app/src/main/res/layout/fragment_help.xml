@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8F7"
+    tools:context=".HelpFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="112dp"
+        android:text="Help and Support"
+        android:textColor="#050505"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="397dp"
+        android:layout_height="613dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/qus2"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:fontFamily="@font/noto_sans"
+                android:text="Change or turn off Schedule Notifications"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+
+                android:id="@+id/ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A2: Yes, our delivery fee varies depending on the place. Most places have a $5.99 delivery fee."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus3"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:fontFamily="@font/noto_sans"
+                android:text="Change your event privacy settings"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+
+                android:id="@+id/ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A3: Meal plan basically consists of bi-weekly or weekly meal plans. With these two plans you can customize your meal and get the meal
+for a week/2 week."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus4"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:fontFamily="@font/noto_sans"
+                android:text="Events from Gmail"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A4: You can write an email to catchyouemail@gmail.com for assistance."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus5"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:fontFamily="@font/noto_sans"
+                android:text="View your day,week,month"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A5: Customization can be done in weekly/bi-weekly meal plans. Please visit plan sections for customizing your meal."
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus6"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:fontFamily="@font/noto_sans"
+                android:text="Respond to event notifications"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A6: Customization does not charge extra if it is in the specified limit. "
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/qus7"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:fontFamily="@font/noto_sans"
+                android:text="send feedback about Schedule Tuner"
+                android:textColor="#050505"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ans7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A7: Yes our cooks wear protective caps and gloves while cooking food"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
